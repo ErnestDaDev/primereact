@@ -4,7 +4,7 @@ import getConfig from 'next/config';
 import HeaderSection from './landing/headersection';
 import HeroSection from './landing/herosection';
 import ComponentSection from './landing/componentsection';
-import ThemeSection from './landing/themesection';
+// import ThemeSection from './landing/themesection';
 import BlockSection from './landing/blocksection';
 import DesignerSection from './landing/designersection';
 import TemplateSection from './landing/templatesection';
@@ -85,7 +85,7 @@ export default function Home(props) {
                 <HeroSection />
             </div>
             <ComponentSection />
-            <ThemeSection theme={tableTheme} onThemeChange={(t) => setTableTheme(t)} dark={dark} />
+            {/* <ThemeSection theme={tableTheme} onThemeChange={(t) => setTableTheme(t)} dark={dark} /> */}
             <BlockSection />
             <DesignerSection dark={dark} />
             <TemplateSection dark={dark} />
