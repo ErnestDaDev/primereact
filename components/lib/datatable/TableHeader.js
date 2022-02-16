@@ -156,7 +156,7 @@ export class TableHeader extends Component {
         let content = this.renderContent();
 
         return (
-            <thead className="p-datatable-thead">
+            <thead className={`p-datatable-thead ${this.props.classes}`}>
                 {content}
             </thead>
         );
