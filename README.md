@@ -45,7 +45,7 @@ const { Dialog } = primereact.dialog;
 const { Accordion, AccordionTab } = primereact.accordion;
 ```
 
-Import all components and structures
+Import all components and structure
 ```javascript
 <script src="https://unpkg.com/primereact/primereact.all.min.js"></script>
 ```
